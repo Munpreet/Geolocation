@@ -1,0 +1,33 @@
+
+
+#API{
+	width:100%;
+	
+}
+
+table, th, td {
+  border: 1px solid black;
+  
+}
+table {
+  border-collapse: collapse;
+}
+#button1,#button2,#button3 {
+  background-color: #6495ED;
+  border-radius: 20%;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+}
+td{
+	text-align:center;
+
+}
+th, td {
+  padding: 15px;
+}
+#Result{padding:100px;
+}

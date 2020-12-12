@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+         <link rel="stylesheet" href="style.css">
+		 <meta charset="utf-8">
+         <title>Geolocate</title>
+         
+        <style>
+            h2 {color: rgb(233, 150, 122);}
+            th {color:rgb(221, 183, 111)}
+            td {color:rgb(221, 183, 111)}
+          
+          table, th, td {
+            border: 3px solid rgb(187, 72, 107);
+          
+            border-collapse: collapse;
+          }
+          th, td {
+            padding: 15px;
+            text-align: left;
+          }  
+          table {
+            width: 100%;
+          
+          
+          
+          }
+          </style>
+    
+
+
+       </head>
+<body>
+    <header>
+        <h1>Geo Location</h1>
+    </header>
+<label for="lat">latitude:</label>
+<input id="lat" type="number" value= "50.5"></br>
+<label for="long"> Longitude:</label>
+<input id= "long" type="number" value="0.5"></br>
+
+    <table id ="API">
+     <tr>
+       <th>API name</th>
+       <th>API description</th>
+       <th></th>
+     </tr>
+     <tr>
+       <td id="weather">Weather</td>
+
+       <td id="weatherInfo">Gives information about Weather</td>
+       <td><button id="button1" type="button">Submit</button></td>
+     </tr>
+     <tr>
+        <td id="earthquakes">Earthquakes</td>
+
+        <td id="earthquakesInfo">This API returns information about Earthquakes</td>
+        <td><button id="button2" type="button">Submit</button></td>
+     </tr>
+      <tr>
+        <td id="timezone">Timezone</td>
+
+        <td id="timezoneInfo">Timezone Information</td>
+       <td><button id="button3" type="button">Submit</button></td>
+     </tr>
+     <tr>
+       <th id="Result" colspan="3">Result</th>
+       </tr>
+</table>
+     <script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+   <script type="application/javascript" src="libs/js/script.js"></script>
+</body>
+</html>
